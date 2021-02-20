@@ -34,15 +34,8 @@ function Login() {
 
 						<div className="form-login--esqueceu-senha">
 
-							<a href="">Esqueci a senha</a>
+							<a href="https://suap.ifrn.edu.br/comum/solicitar_trocar_senha/">Esqueci a senha</a>
 
-						</div>
-
-						<hr className="form-login--divisor"/>
-						
-						<div className="form-login--criar-conta">
-							<p>Ainda não tem uma conta Biguew?</p>
-							<button>Criar conta</button>
 						</div>
 
 					</form>

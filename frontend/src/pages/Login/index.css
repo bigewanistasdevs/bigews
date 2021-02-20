@@ -101,12 +101,6 @@
     margin: 5px 0px;
 }
 
-.form-login--divisor {
-    border: none;
-    height: 1px;
-    background-color: #77757a;
-}
-
 .form-login--esqueceu-senha > a {
     text-decoration: none;
     color: #000;
@@ -115,33 +109,6 @@
 
 .form-login--esqueceu-senha > a:hover {
     color: #0f44bb;
-}
-
-.form-login--criar-conta {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.form-login--criar-conta > button {
-    text-decoration: none;
-    width: 100%;
-    padding: 6px;
-    font-size: 20px;
-    margin: 10px 0px 15px 0px;
-    background-color: #73ea6100;
-    border: 2px solid #0f44bb;
-    border-radius: 3px;
-    color: #0f44bb;
-    cursor: pointer;
-    transition: all ease 0.5s;
-    outline: none;
-}
-
-.form-login--criar-conta > button:hover, 
-.form-login--criar-conta > button:focus {
-    background-color: #0f44bb;
-    border-color: #0f44bb;
-    color: #FFF;
 }
 
 .container--bloco-imagem {
