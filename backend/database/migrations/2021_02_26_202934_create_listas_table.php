@@ -20,6 +20,7 @@ class CreateListasTable extends Migration
 
             $table->string('nome');
             $table->boolean('concluida');
+            $table->timestamps();
         });
     }
 

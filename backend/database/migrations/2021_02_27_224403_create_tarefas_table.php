@@ -19,6 +19,7 @@ class CreateTarefasTable extends Migration
             $table->text('descricao');
             $table->boolean('concluida');
             $table->UnsignedBigInteger('lista');
+            $table->timestamps();
 
             $table->foreign('lista')
                 ->references('id')
