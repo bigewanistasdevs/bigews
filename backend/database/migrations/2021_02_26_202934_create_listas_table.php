@@ -15,7 +15,11 @@ class CreateListasTable extends Migration
     {
         Schema::create('listas', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+
+            $table->integer('matricula')->nullable();
+
+            $table->string('nome');
+            $table->boolean('concluida');
         });
     }
 
