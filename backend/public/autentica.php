@@ -8,7 +8,6 @@ $senha = $_POST['senha'];
 
 $suap = new SUAP();
 
-
 try {
     
     $data = $suap->autenticar($matricula, $senha);
@@ -78,5 +77,5 @@ try {
 
     //AQUI MANDA UM ELSE PARA OS PROFESSORES;;
 } catch (Exception $e) {
-    header("Location: login.php");
+    return $e;
 }
