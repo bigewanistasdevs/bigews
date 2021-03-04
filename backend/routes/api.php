@@ -1,6 +1,10 @@
 <?php
 
-// Route::apiResource('listas', 'api\ListaController');
-// Route::apiResource('tarefas', 'api\TarefaController');
+// Route::namespace('Api')->group(function(){
 
-Route::get('listas', 'Api\\ListaController@index');
+    Route::apiResource('listas', 'App\Http\Controllers\api\ListaController');
+    Route::apiResource('tarefas', 'App\Http\Controllers\api\TarefaController');
+    
+// });
+
+// Route::get('listas', 'Api\\ListaController@index');
