@@ -12,7 +12,10 @@ class ListaController extends Controller
     // rota principal like?? n entendi praq mas ta ai
     public function index()
     {
-        return response()->json('ok');
+        $listas = Lista::all();
+
+        // return response()->json('ok');
+
         // $listas = Lista::all();
         // return response()->json($listas);
     }
