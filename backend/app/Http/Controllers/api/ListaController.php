@@ -13,6 +13,7 @@ class ListaController extends Controller
     public function index()
     {
         $listas = Lista::all();
+        return response()->json($listas);
 
         // return response()->json('ok');
 
